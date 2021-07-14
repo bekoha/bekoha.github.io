@@ -1,0 +1,69 @@
+@font-face {
+	font-family: zendots;
+	src: url('./fonts/ZenDots-Regular.ttf');
+}
+
+body {
+	background-color: #050e1a;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: Verdana, sans-serif;
+	line-height: 1.5;
+	text-align: justify;
+	margin: 0em auto;
+	max-width: 45em;
+}
+@media (min-width:480px)
+{
+	body{	
+		/*background-color: #aaaaff;*/
+		font-size: 16px;
+		margin: 0em auto;
+	    max-width: 45em;
+	}
+	
+}
+
+p{
+	margin: 0px;
+	padding: 0 10;
+
+}
+a {
+	color:#7debee;
+}
+
+h1 {
+	margin: 30px 0px 4px;
+    font-family: zendots, sans-serif;
+    font-size:2.5em;
+    font-weight: normal;
+		padding: 0 10;
+		word-break:normal;
+	overflow-wrap:anywhere;
+}
+
+h2 {
+	background-color: #183358;
+	border-bottom: 2px solid;
+	border-bottom-color: #ffffff;
+	margin: 25px 0px 10px;
+	padding: 0 10;
+	font-family: zendots, sans-serif;
+	font-weight: normal;
+}
+
+img {
+	margin: 0.5em 0;
+		max-width:100%;
+	height:auto;
+}
+
+footer {
+	border-top: 1px solid;
+	border-top-color: #ffffff;
+	margin: 30 0 0 0;
+	padding: 10 0;
+	text-align: center;
+}
+
