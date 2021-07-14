@@ -6,7 +6,7 @@
 body {
 	background-color: #050e1a;
 	color: #ffffff;
-	font-size: 12px;
+	font-size: 16px;
 	font-family: Verdana, sans-serif;
 	line-height: 1.5;
 	text-align: justify;
@@ -17,7 +17,6 @@ body {
 {
 	body{	
 		/*background-color: #aaaaff;*/
-		font-size: 16px;
 		margin: 0em auto;
 	    max-width: 45em;
 	}
