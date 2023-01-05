@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'Archivo';
+	src: url('./fonts/Archivo_Condensed-Medium.ttf');
+	}
+	
+@font-face {
+	font-family: 'NimbusSans';
+	src: url('./fonts/NimbusSans-Regular.otf');
+	font-weight: normal;
+	}
+	
+@font-face {
+	font-family: 'NimbusSans';
+	src: url('./fonts/NimbusSans-Bold.otf');
+		font-weight: bold;
+	}
+	
+	@font-face {
+	font-family: 'font04b11';
+	src: url('./fonts/04B_11__.TTF');
+	}
+	
+body {
+
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 16pt;
+	font-family: NimbusSans, sans-serif;
+	line-height: 1.5;
+	text-align: justify;
+			margin: 0em auto;
+	    max-width:40em;
+			word-break:break-word;
+}
+
+strong
+{
+	color: #800000;
+}
+p{	
+	padding: 0 20;
+	margin:10 0 20;
+}
+
+a {
+	font-weight: bold;
+	color:#800000;
+}
+
+h1 {
+		padding: 40 0;
+	margin: 0;
+	background-color: #ffffff;
+	color: #000000;
+    font-size:2.5em;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: -2pt;
+		text-align: center;
+}
+
+h2 {
+	background:linear-gradient(315deg, #dae6f2, #ffffff);
+	text-transform: lowercase;
+	color: #800000;
+	padding: 0 20;
+	margin: 0;
+    font-size:1.5em;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: -1pt;
+
+}
+
+h3 {
+	text-transform: lowercase;
+	color: #000000;
+	margin: 10 0 5 0;
+    font-size:1.5em;
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: -1pt;
+}
+
+img {
+    display: block;
+    margin: 4 auto;
+	max-width:100%;
+}
+
+ul 
+{
+		padding: 0 20 0 40;
+		margin:10 0;
+}
+
+ol 
+{
+		padding: 0 20 0 40;
+		margin:10 0;
+}
+footer {
+	border-top: 1px solid;
+	border-top-color: #ffffff;
+	margin: 30 0 0 0;
+	padding: 10 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+table{
+    margin: 0 auto;
+	max-width:100%;
+}
